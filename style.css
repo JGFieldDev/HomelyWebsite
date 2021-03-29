@@ -1,0 +1,200 @@
+
+/* FONTS */
+.comforta{
+    font-family: 'Comfortaa', cursive;
+}
+.carme{
+    font-family: 'Carme', sans-serif;
+}
+.Josefin{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+}
+.syne{
+    font-family: 'Syne', sans-serif;
+
+}
+/*  */
+
+.light-bg{
+    background-color: #efeff5;
+}
+body{
+    min-height:100vw;
+    padding:0px;
+    margin:0px;
+}
+
+.imgTest{
+    background-image: url("https://www.balustradecomponents.co.uk/blog/wp-content/uploads/2018/05/rustic-room.jpg"); 
+    
+    min-height: 500px;
+    width:100%;
+    background-size:cover;
+}
+.imgTest2{
+    background-image: url("https://images5.alphacoders.com/382/thumb-1920-382953.jpg");
+    min-height: 500px;
+    width:100%;
+    background-size:cover;
+}
+.imgTest3{
+    background-image: url("https://www.wallpapers4u.org/wp-content/uploads/house_room_interior_sofa_white_7854_1920x1080.jpg");
+    min-height: 500px;
+    width:100%;
+    background-size:cover;
+}
+#welcomeList a{
+    padding-left: 2rem;
+}
+.btn-orange{
+    color: #fccf03;    
+}
+.extra{
+    
+    top: 0;
+    left:0;
+    width:100%;
+    max-height: 500px;
+    
+}
+.coverText{
+    position: absolute;
+    top:0;
+    left:25%
+}
+.navCover{
+    height: 200px;
+    /* position: absolute; */
+    width:100%
+}
+.lightOverlay{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.bottomLine{
+    border-bottom-style:solid;
+    border-width: 2px;
+    border-color: rgb(155, 155, 155);
+}
+.topLine{
+    border-top-style: solid;
+    border-top-width: 12px;
+    border-top-color: black
+}
+#sectionTwo{
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: rgb(155, 155, 155);
+    border-bottom-style:solid ;
+    border-bottom-width:2px;
+
+}
+.LogoFont{
+    font-size:5rem;
+}
+.bannerImg{
+    
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        
+}
+.plantPotImg{
+    height:300px;
+    width:100%;
+    object-fit: cover;
+}
+.smallPara{
+    height: 400px;
+    width: 600px;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    
+    
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 300px;
+  width: 100px;
+  color: black;
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 50px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 50px;
+  color:    black;
+}
+#card-title{
+    border-top-width: 1px; 
+    border-top-style: solid;
+}
+
+.seg4{
+    height:500px;
+    width:500px;
+    object-fit: cover;
+}
+
+.lightImg{
+    border-radius: 50%;
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+}
+.bathIMG{
+    width:50vw;
+    object-fit: cover;
+    height:800px;
+}
+.test{
+    background-color: blueviolet;
+}
+
+a:hover .test{
+    background-color: burlywood;
+}
+.cock {
+    left:100;
+    position: relative;
+}
+.cock a:hover{
+    
+}
+.overlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    Right:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    
+  }
+  
+.cock:hover .overlay {
+    opacity: 0.7;
+    padding:12px,12px,12px,12px;
+    
+}
+.cock:hover .bathIMG{
+    padding-bottom:12px;
+    padding-top:12px;
+    padding-right:12px;
+    padding-left:12px;
+    transition: .5s ease;
+
+}
