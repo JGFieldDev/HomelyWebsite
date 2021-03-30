@@ -115,7 +115,7 @@ body{
     
     
 }
-.carousel-control-prev-icon,
+/* .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 300px;
   width: 100px;
@@ -135,7 +135,7 @@ body{
   content: '<';
   font-size: 50px;
   color:    black;
-}
+} */
 #card-title{
     border-top-width: 1px; 
     border-top-style: solid;
@@ -197,4 +197,13 @@ a:hover .test{
     padding-left:12px;
     transition: .5s ease;
 
+}
+a{
+    font-style: none;
+    color: white;
+}
+.card-img{
+    object-fit: cover;
+    height: 600px;
+    width:100%;
 }
