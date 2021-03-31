@@ -109,7 +109,7 @@ body{
     width: 600px;
 }
 .card-img-top {
-    width: 100%;
+    width: 15vw;
     height: 15vw;
     object-fit: cover;
     
@@ -199,9 +199,12 @@ a:hover .test{
 
 }
 a{
+    text-decoration: none;
+    text-decoration-style: none;
     font-style: none;
     color: white;
 }
+
 .card-img{
     object-fit: cover;
     height: 600px;
@@ -227,4 +230,12 @@ li a{
     text-decoration: none;
     text-decoration-style: none;
     color: black;
+}
+#test2{
+    display:none;
+}
+.productIMG{
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
