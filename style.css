@@ -142,8 +142,8 @@ body{
 }
 
 .seg4{
-    height:35vw;
-    width:35vw;
+    height: 100%;
+    width:100%;
     object-fit: cover;
 }
 
