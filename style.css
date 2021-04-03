@@ -247,7 +247,7 @@ li a{
 }
 #seatimg{
     width:30vw;
-    height:100%;
+    height:80%;
     
 }
 #SignIn a:hover{
@@ -256,8 +256,8 @@ li a{
     color: rgb(247, 231, 202);
 }
 #bathLightImg{
-    height:30vw;
-    width:30vw;
+    height:25vw;
+    width:25vw;
     border-radius: 50%;
     object-fit: cover;
 }
